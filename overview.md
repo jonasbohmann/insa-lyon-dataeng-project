@@ -10,6 +10,10 @@ Idea:
 - France, Crimes et délits enregistrés par les services de gendarmerie et de police depuis 2012: https://www.data.gouv.fr/fr/datasets/crimes-et-delits-enregistres-par-les-services-de-gendarmerie-et-de-police-depuis-2012/
 - ⁠All crime datasets by the German government: https://www.govdata.de/suche?q=Kriminalit%C3%A4t
 
+Final Datasets (for Countries A,B,C...):
+- 
+- 
+
 ## Datapool B: Datasets for Game stats (e.g on steam, stats such as current player count)
 - ⁠PC Video Games Steam Charts: https://steamdb.info/charts/
 - GTA 5 Historical Player Data: https://steamdb.info/app/271590/charts/
@@ -21,3 +25,6 @@ Idea:
 - ⁠Video Game Rating by ESRB: https://www.kaggle.com/datasets/imohtn/video-games-rating-by-esrb
 - Video game and aggression data: https://rdrr.io/github/profandyfield/discovr/man/video_games.html
 
+Final Datasets (for Games A,B,C...):
+- current player count
+- age restriction
