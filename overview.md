@@ -9,7 +9,6 @@ GAME DEMAND --> CRIME RATE ??
 correlating (per location):
 - crime rate (data.gov)
 - online game demand (-> reddit)
-trends.google.com
 
 ## Question 3: Effect of crime incident coverage on game demand
 NEWS ON CRIME --> GAME DEMAND ??
