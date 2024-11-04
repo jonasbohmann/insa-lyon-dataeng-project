@@ -37,6 +37,8 @@ NEWS ON CRIME --> GAME DEMAND ??
 - France, Crimes et délits enregistrés par les services de gendarmerie et de police depuis 2012: https://www.data.gouv.fr/fr/datasets/crimes-et-delits-enregistres-par-les-services-de-gendarmerie-et-de-police-depuis-2012/
 - ⁠All crime datasets by the German government: https://www.govdata.de/suche?q=Kriminalit%C3%A4t
 - https://transcripts.cnn.com
+- https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ISDPJU
+- https://github.com/notnews/cnn_transcripts?tab=readme-ov-file
 - reddit
 - Mass shootings: Mass shootings googlen
 
