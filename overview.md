@@ -5,12 +5,14 @@
 Game releases von steam
 Crime rates von data.gov
 
-### 2. Correlation between player numbers and crime rate (in certain locations)
+### 2. Correlation between game demand and crime rate
+correlating (per location):
+- crime rate (data.gov)
+- online game demand (google search-rates, youtube interests, social media) -> trends.google.com
+trends.google.com
 
-
-
-### 3. Effect of news coverage for crime incidents on player numbers (
-
+### 3. Effect of crime incident coverage on game demand
+- online game demand (google search-rates, youtube interests, social media) -> trends.google.com
 
 Idea:
 
