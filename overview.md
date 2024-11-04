@@ -1,39 +1,46 @@
-# Data Engineering Project: Influence of video games on crime rate and accidents (maybe only US)
+# Data Engineering Project: Influence of video games on crime rate and accidents in the US
 
-## Question 1: Spike in crime rate after new game release
-Game releases von steam
-Crime rates von data.gov
+### Question #1: Spike in crime rate after new game release
 
-## Question 2: Correlation between game demand and crime rate
-GAME DEMAND --> CRIME RATE ??
-correlating (per location):
-- crime rate (data.gov)
-- online game demand (-> reddit)
+* Game releases von steam
+* Crime rates von data.gov
 
-## Question 3: Effect of crime incident coverage on game demand
-NEWS ON CRIME --> GAME DEMAND ??
-correlating (per location):
-- news transcripts https://transcripts.cnn.com
-- online game demand (-> reddit)
+### Question #2: Correlation between game demand and crime rate
+
+* GAME DEMAND --> CRIME RATE ??
+* correlating (per location):
+  * crime rate (data.gov)
+  * online game demand (-> reddit)
+
+### Question #3: Effect of crime incident coverage on game demand
+
+* NEWS ON CRIME --> GAME DEMAND ??
+* correlating (per location):
+  * news transcripts https://transcripts.cnn.com
+  * online game demand (-> reddit)
 
 
-Idea:
+&nbsp;
+&nbsp;
 
-## Datapool A: Datasets for real-life events in the US (or different countries)
+<details>
+
+<summary>Datasets</summary>
+
+
+#### Datapool A: Datasets for real-life events in the US (or different countries)
 - ⁠Crime Rate Los Angeles, 2020-present: https://catalog.data.gov/dataset/crime-data-from-2020-to-present
 - ⁠New York City: Motor Vehicle Collisions Crashes: https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes
 - New York City: NYPD Arrest Data (Year to Date): https://catalog.data.gov/dataset/nypd-arrest-data-year-to-date
 - ⁠All US crime datasets: https://catalog.data.gov/dataset/?q=crime&sort=views_recent+desc&ext_location=&ext_bbox=&ext_prev_extent=
 - France, Crimes et délits enregistrés par les services de gendarmerie et de police depuis 2012: https://www.data.gouv.fr/fr/datasets/crimes-et-delits-enregistres-par-les-services-de-gendarmerie-et-de-police-depuis-2012/
 - ⁠All crime datasets by the German government: https://www.govdata.de/suche?q=Kriminalit%C3%A4t
-
+- https://transcripts.cnn.com
+- reddit
 - Mass shootings: Mass shootings googlen
 
-Final Datasets (for Countries A,B,C...):
-- 
-- 
 
-## Datapool B: Datasets for Game stats (e.g on steam, stats such as current player count)
+#### Datapool B: Datasets for Game stats (e.g on steam, stats such as current player count)
 - ⁠PC Video Games Steam Charts: https://steamdb.info/charts/
 - GTA 5 Historical Player Data: https://steamdb.info/app/271590/charts/
 - Counter Strike Historical Player Data: https://steamdb.info/app/730/charts/
@@ -47,3 +54,6 @@ Final Datasets (for Countries A,B,C...):
 Final Datasets (for Games A,B,C...):
 - current player count
 - age restriction
+
+
+</details>
