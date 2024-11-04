@@ -1,5 +1,17 @@
 # Data Engineering Project: Influence of video games on crime rate and accidents
 
+## Final Questions
+### 1. Spike in crime rate after new game release
+Game releases von steam
+Crime rates von data.gov
+
+### 2. Correlation between player numbers and crime rate (in certain locations)
+
+
+
+### 3. Effect of news coverage for crime incidents on player numbers (
+
+
 Idea:
 
 ## Datapool A: Datasets for real-life events in the US (or different countries)
@@ -9,6 +21,8 @@ Idea:
 - ⁠All US crime datasets: https://catalog.data.gov/dataset/?q=crime&sort=views_recent+desc&ext_location=&ext_bbox=&ext_prev_extent=
 - France, Crimes et délits enregistrés par les services de gendarmerie et de police depuis 2012: https://www.data.gouv.fr/fr/datasets/crimes-et-delits-enregistres-par-les-services-de-gendarmerie-et-de-police-depuis-2012/
 - ⁠All crime datasets by the German government: https://www.govdata.de/suche?q=Kriminalit%C3%A4t
+
+- Mass shootings: Mass shootings googlen
 
 Final Datasets (for Countries A,B,C...):
 - 
