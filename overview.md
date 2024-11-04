@@ -1,4 +1,4 @@
-# Data Engineering Project: Influence of video games on crime rate and accidents
+# Data Engineering Project: Influence of video games on crime rate and accidents (maybe only US)
 
 ## Final Questions
 ### 1. Spike in crime rate after new game release
@@ -6,13 +6,18 @@ Game releases von steam
 Crime rates von data.gov
 
 ### 2. Correlation between game demand and crime rate
+GAME DEMAND --> CRIME RATE ??
 correlating (per location):
 - crime rate (data.gov)
-- online game demand (google search-rates, youtube interests, social media) -> trends.google.com
+- online game demand (-> reddit)
 trends.google.com
 
 ### 3. Effect of crime incident coverage on game demand
-- online game demand (google search-rates, youtube interests, social media) -> trends.google.com
+NEWS ON CRIME --> GAME DEMAND ??
+correlating (per location):
+- news transcripts https://transcripts.cnn.com
+- online game demand (-> reddit)
+
 
 Idea:
 
