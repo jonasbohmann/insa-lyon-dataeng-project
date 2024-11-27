@@ -24,12 +24,21 @@ NEWS ON CRIME --> GAME DEMAND ??
 ### Used datasets
 Game releases from steam:
 - Counter Strike 2, PUBG, Call of Duty, GTA V, Rainbow Six Siege, Apex Legends, Overwatch 2, Destiny 2, S.T.A.L.K.E.R 2, Red Dead Redemption
+- Search for big updates for each game and release date
+- Get player numbers for certain time amount after update release
 
-
-
-
-Crime rates from data.gov
-
+Crime rates from data.gov:
+- Cities: New York, Los Angeles, Chicago, Houston, Phoenix, Philadelphia, San Antonio, San Diego, Dallas, Austin
+- New York: https://www.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page
+- Los Angeles: https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+- Chicago: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data
+- Houston: https://www.houstontx.gov/police/cs/Monthly_Crime_Data_by_Street_and_Police_Beat.htm
+- Phoenix: https://www.phoenix.gov/police/resources-information/crime-stats-maps
+- Philadelphia: https://data.phila.gov/visualizations/crime-incidents
+- (!) San Antonio: https://www.sa.gov/Directory/Departments/SAPD/Transparency-Open-Data
+- San Diego: https://www.sandiego.gov/police/data-transparency/crime-statistics
+- (!) Dallas: https://dallaspolice.net/resources/Pages/Crime-reports.aspx
+- Austin: https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu/about_data
 
 Online game demand
 * reddit
