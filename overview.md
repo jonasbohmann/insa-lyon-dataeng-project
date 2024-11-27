@@ -21,6 +21,24 @@ NEWS ON CRIME --> GAME DEMAND ??
   * online game demand (-> reddit)
 
 
+### Used datasets
+Game releases from steam
+Games: Counter Strike 2, PUBG, Call of Duty, GTA V, Rainbow Six Siege, Apex Legends, Overwatch 2, Destiny 2, S.T.A.L.K.E.R 2, Red Dead Redemption
+
+
+Crime rates from data.gov
+
+
+Online game demand
+* reddit
+
+News transcripts
+* https://transcripts.cnn.com (CNN)
+* https://www.msnbc.com/transcripts (MSNBC)
+* https://www.foxnews.com/transcript (Fox News)
+
+
+
 &nbsp;
 &nbsp;
 
