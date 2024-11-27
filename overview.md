@@ -22,8 +22,10 @@ NEWS ON CRIME --> GAME DEMAND ??
 
 
 ### Used datasets
-Game releases from steam
-Games: Counter Strike 2, PUBG, Call of Duty, GTA V, Rainbow Six Siege, Apex Legends, Overwatch 2, Destiny 2, S.T.A.L.K.E.R 2, Red Dead Redemption
+Game releases from steam:
+- Counter Strike 2, PUBG, Call of Duty, GTA V, Rainbow Six Siege, Apex Legends, Overwatch 2, Destiny 2, S.T.A.L.K.E.R 2, Red Dead Redemption
+
+
 
 
 Crime rates from data.gov
