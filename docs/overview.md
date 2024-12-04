@@ -2,20 +2,20 @@
 
 ### Question #1: Spike in crime rate after new game release
 
-NEW GAME(-UPDATE) RELEASE --> CRIME RATE ??
-* Game releases from steam 
+NEW GAME(-UPDATE) RELEASE --> CRIME RATE ?
+* Game releases from steam
 * Crime rates from data.gov
 
 ### Question #2: Correlation between game demand and crime rate
 
-GAME DEMAND --> CRIME RATE ??
+GAME DEMAND --> CRIME RATE ?
 * correlating (per location):
   * crime rate (data.gov)
   * online game demand (-> reddit)
 
 ### Question #3: Effect of crime incident coverage on game demand
 
-NEWS ON CRIME --> GAME DEMAND ??
+NEWS ON CRIME --> GAME DEMAND ?
 * correlating (per location):
   * news transcripts https://transcripts.cnn.com
   * online game demand (-> reddit)
