@@ -16,16 +16,22 @@ Crime Data in Los Angeles from data.gov
 
 ### Question #2: Correlation between GTA 5 game interest (reddit) and crime rate in LA
 How does an increase in criminality in Los Angeles affect the interest in GTA?
-GAME DEMAND --> CRIME RATE ?
-* correlating (per location):
-  * crime rate (data.gov)
-  * online game demand (-> reddit)
+
+Crime data in Los Angeles from data.gov
+* Ingestion: https://catalog.data.gov/dataset/crime-data-from-2010-to-2019, https://catalog.data.gov/dataset/crime-data-from-2020-to-present
+* Staging: aggregating datasets to receive data from 2015-present
+
+Online game interest in GTA V
+
+
 
 ### Question #3: Effect of crime incident coverage on game demand
-In which way does crime coverage in the media spark the desire to play GTA 5
-* correlating (per location):
-  * news transcripts https://transcripts.cnn.com
-  * online game demand (-> reddit)
+In which way does crime coverage in the media spark the desire to play GTA 5?
+Media coverage
+* Ingestion: https://transcripts.cnn.com
+* Staging: search through transcripts for bullet points refered to crime reporting
+ 
+Online game interest in GTA V
 
 
 ### Used datasets
