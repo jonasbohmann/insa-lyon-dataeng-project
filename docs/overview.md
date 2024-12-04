@@ -1,21 +1,19 @@
-# Data Engineering Project: Influence of video games on crime rate and accidents in the US
+# Data Engineering Project: Influence of video games (GTA) on crime rate and accidents in the US
 
-### Question #1: Spike in crime rate after new game release
-
-NEW GAME(-UPDATE) RELEASE --> CRIME RATE ?
+### Question #1: Spike in LA crime rate after new GTA 5 update release
+How does the release of a new GTA update affect the criminality (crime rate) in Los Angeles?
 * Game releases from steam
 * Crime rates from data.gov
 
-### Question #2: Correlation between game demand and crime rate
-
+### Question #2: Correlation between GTA 5 game interest (reddit) and crime rate in LA
+How does an increase in criminality in Los Angeles affect the interest in GTA?
 GAME DEMAND --> CRIME RATE ?
 * correlating (per location):
   * crime rate (data.gov)
   * online game demand (-> reddit)
 
 ### Question #3: Effect of crime incident coverage on game demand
-
-NEWS ON CRIME --> GAME DEMAND ?
+In which way does crime coverage in the media spark the desire to play GTA 5
 * correlating (per location):
   * news transcripts https://transcripts.cnn.com
   * online game demand (-> reddit)
