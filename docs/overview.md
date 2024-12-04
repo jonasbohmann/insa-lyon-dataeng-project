@@ -3,12 +3,16 @@
 ### Question #1: Spike in LA crime rate after new GTA 5 update release
 How does the release of a new GTA update affect the criminality (crime rate) in Los Angeles?
 
-Update releases and GTA player numbers from steam
-* https://steamdb.info/app/271590/charts/
+Update releases and GTA PC player numbers from steam
+* Ingestion: https://steamdb.info/app/271590/charts/
+* Ingestion: https://gta.fandom.com/wiki/Grand_Theft_Auto_V/Title_Update_Notes
+* Staging: Cleaning the data and creating a number for player count in Los Angeles by creating assumptions about worldwide steam player spread
+* Assumptions: https://newsletter.gamediscover.co/p/whats-the-country-split-for-players, calculate share of los angeles GTA V players among worldwide player numbers (does not make a difference but better structure)
 
 Crime Data in Los Angeles from data.gov
-* 2010-2019: https://catalog.data.gov/dataset/crime-data-from-2010-to-2019
-* 2020-present: https://catalog.data.gov/dataset/crime-data-from-2020-to-present
+* Ingestion: https://catalog.data.gov/dataset/crime-data-from-2010-to-2019, https://catalog.data.gov/dataset/crime-data-from-2020-to-present
+* Staging: aggregating datasets to receive data from 2015-present
+
 
 ### Question #2: Correlation between GTA 5 game interest (reddit) and crime rate in LA
 How does an increase in criminality in Los Angeles affect the interest in GTA?
