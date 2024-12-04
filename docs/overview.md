@@ -22,8 +22,8 @@ Crime data in Los Angeles from data.gov
 * Staging: aggregating datasets to receive data from 2015-present
 
 Online game interest in GTA V
-
-
+* Ingestion: https://steamdb.info/app/271590/charts/
+* Staging: Cleaning the data and creating a number for twitch viewers in Los Angeles by creating assumptions about worldwide viewer spread
 
 ### Question #3: Effect of crime incident coverage on game demand
 In which way does crime coverage in the media spark the desire to play GTA 5?
