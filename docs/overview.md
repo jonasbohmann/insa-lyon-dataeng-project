@@ -2,8 +2,10 @@
 
 ### Question #1: Spike in LA crime rate after new GTA 5 update release
 How does the release of a new GTA update affect the criminality (crime rate) in Los Angeles?
+
 Update releases and GTA player numbers from steam
 * https://steamdb.info/app/271590/charts/
+
 Crime Data in Los Angeles from data.gov
 * 2010-2019: https://catalog.data.gov/dataset/crime-data-from-2010-to-2019
 * 2020-present: https://catalog.data.gov/dataset/crime-data-from-2020-to-present
