@@ -25,13 +25,26 @@ Online game interest in GTA V
 * Ingestion: https://steamdb.info/app/271590/charts/
 * Staging: Cleaning the data and creating a number for twitch viewers in Los Angeles by creating assumptions about worldwide viewer spread
 
+
 ### Question #3: Effect of crime incident coverage on game demand
 In which way does crime coverage in the media spark the desire to play GTA 5?
+
 Media coverage
 * Ingestion: https://transcripts.cnn.com
 * Staging: search through transcripts for bullet points refered to crime reporting
  
 Online game interest in GTA V
+* Ingestion: https://steamdb.info/app/271590/charts/
+* Staging: Cleaning the data and creating a number for twitch viewers in Los Angeles by creating assumptions about worldwide viewer spread
+
+
+
+&nbsp;
+&nbsp;
+
+<details>
+
+<summary>Datasets</summary>
 
 
 ### Used datasets
@@ -65,14 +78,6 @@ News transcripts
 * https://www.msnbc.com/transcripts (MSNBC)
 * https://www.foxnews.com/transcript (Fox News)
 
-
-
-&nbsp;
-&nbsp;
-
-<details>
-
-<summary>Datasets</summary>
 
 
 #### Datapool A: Datasets for real-life events in the US (or different countries)
