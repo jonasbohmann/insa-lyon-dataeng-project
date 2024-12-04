@@ -47,6 +47,7 @@ Crime rates from data.gov:
 - Austin: https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu/about_data
 
 Online game demand
+* Twitch View Statistics: https://sullygnome.com/game/Grand_Theft_Auto_V
 * reddit
 
 News transcripts
