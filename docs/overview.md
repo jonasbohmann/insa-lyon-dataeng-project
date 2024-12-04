@@ -24,14 +24,14 @@ In which way does crime coverage in the media spark the desire to play GTA 5
   * online game demand (-> reddit)
 
 
-
-
-
 ### Used datasets
 Game releases from steam:
 - Counter Strike 2, PUBG, Call of Duty, GTA V, Rainbow Six Siege, Apex Legends, Overwatch 2, Destiny 2, S.T.A.L.K.E.R 2, Red Dead Redemption
 - Search for big updates for each game and release date
 - Get player numbers for certain time amount after update release
+
+GTA5
+- Update history: https://gta.fandom.com/wiki/Grand_Theft_Auto_V/Title_Update_Notes
 
 Crime rates from data.gov:
 - Cities: New York, Los Angeles, Chicago, Houston, Phoenix, Philadelphia, San Antonio, San Diego, Dallas, Austin
