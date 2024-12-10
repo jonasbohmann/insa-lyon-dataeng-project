@@ -14,7 +14,7 @@ Crime Data in Los Angeles from data.gov
 * Staging: aggregating datasets to receive data from 2015-present
 
 
-### Question #2: Correlation between GTA 5 game interest (reddit) and crime rate in LA
+### Question #2: Correlation between GTA 5 game interest (twitch) and crime rate in LA
 How does an increase in criminality in Los Angeles affect the interest in GTA?
 
 Crime data in Los Angeles from data.gov
