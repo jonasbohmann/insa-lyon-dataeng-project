@@ -1,0 +1,17 @@
+[project]
+name = "prototypes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "disutils>=1.4.32.post2",
+    "psycopg2-binary>=2.9.10",
+    "pymongo>=4.10.1",
+    "requests>=2.32.3",
+    "selenium-stealth>=1.0.6",
+    "selenium>=4.27.1",
+    "setuptools>=75.6.0",
+    "undetected-chromedriver>=3.5.5",
+]
