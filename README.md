@@ -13,9 +13,32 @@ Of course, not everybody interested in GTA V is playing it. So in order to make 
 ### 3) Does news coverage on crime incidents lead to more people wanting to play GTA V?
 Even though a high crime rate might be generally sensed by the citizens, the general attention on crime incidents raises mainly due to news reports that are watched by most of the people. Considering that, we were also curious to see, if the mentioning of violent words in e.g. a report on a crime incident on national television alone could spark the desire of people to play a violent game such as GTA V.
 
-# Data Sources
-listing data sources
+# Setup
+## Scope & Assumptions
+Based on the available data and the extent of this project, we had to lower the scope of our analysis and make a few assumptions, in order to be efficient, but still able to come to a meaningful conclusion. <br/>
 
+First of all, we decided to only look at the crime data in the city of Los Angeles, which in fact, is the city that the GTA V map is based on. Since we only found exact player number data on Steam, which is a platform for PC-games, we did not conclude console players in our research. <br/>
+Due to a lack of information on the worldwide player spread, we also made the following assumtions to get a representative number of GTA V players in Los Angeles at a certain time: <br/>
+- the amount of US GTA V players equals the worldwide percentage from https://newsletter.gamediscover.co/p/whats-the-country-split-for-players for worldwide GTA V players
+- the percentage of Los Angeles GTA V players from US GTA V players equals the percentage of Los Angeles inhabitants from US inhabitants
+
+We also took the number of current GTA V Twitch viewers as a representative indicator for the general interest in the game, for which the same assumptions are applied as for the player numbers.
+
+
+
+## Data sources
+GTA V player & Twitch viewer count: <br/>
+https://steamdb.info/app/271590/charts/ <br/>
+
+GTA V update history: <br/>
+https://gta.fandom.com/wiki/Grand_Theft_Auto_V/Title_Update_Notes <br/>
+
+Crime Data Los Angeles after GTA V release in 2015: <br/>
+https://catalog.data.gov/dataset/crime-data-from-2010-to-2019 <br/>
+https://catalog.data.gov/dataset/crime-data-from-2020-to-present <br/>
+
+CNN news transcripts: <br/>
+https://transcripts.cnn.com 
 
 ## Workflow
 rough structure of the project steps (to be elaborated later)
