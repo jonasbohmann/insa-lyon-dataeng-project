@@ -55,3 +55,5 @@ maybe insert picture
 ## Production Phase
 - 
 - building the star schema
+
+# Verdict
