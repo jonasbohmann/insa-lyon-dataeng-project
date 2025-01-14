@@ -1,9 +1,10 @@
-# Data Engineering Project: How does GTA V affect crime in the real world?
+# Report - Data Engineering Project: How does GTA V affect crime in the real world?
 
 A project by Jonas Bohmann and Johann Adrion (Potato$alad) <br/>
 Teacher: Riccardo Tommasini <br/>
 Course: Foundation of Data Engineering at INSA Lyon <br/>
 Poster: https://www.canva.com/design/DAGcLqu_re4/EipdT7Dg4SThcyEl7YXtFA/edit
+
 
 # Motivation
 
@@ -35,6 +36,7 @@ Due to a lack of information on the worldwide player spread, we also made the fo
 We also took the number of current GTA V Twitch viewers as a representative indicator for the general interest in the game, for which the same assumptions are applied as for the player numbers.
 
 ## Data sources
+
 GTA V player & Twitch viewer count: <br/>
 https://steamdb.info/app/271590/charts/ <br/>
 
@@ -68,3 +70,75 @@ In order to get the GTA V update list, we located the update table on the websit
 # Verdict
 Looking at our results for the 3 questions from the beginning, honestly, you cannot specifically say that there is a real correlation between the variables we examined. However, there are passages within the visualizations (to be found on the poster) which might indicate a connection between a lot of people playing GTA V and real-time incidents happening in the city of Los Angeles that are covered by national television in certain periods. <br/>
 At this point, one could investigate further by using data from more similar games while looking at a bigger region and also including console players to gain convincing results, that show the real impact of violent video games on real-time events in our society.
+
+# Setup
+
+## Installation
+
+1. Make sure Docker and `docker compose` are installed.
+2. Create `.env` file in the root directory, which should look like this:
+
+    ```
+    AIRFLOW_UID=501
+    AIRFLOW_PROJ_DIR=./airflow
+    ```
+
+    If `id -u` returns something other than 501, adjust the .env accordingly.
+
+3. Make sure all expected directories exist:
+
+    `mkdir -p ./airflow/dags/ingestion_zone ./airflow/logs ./airflow/config ./airflow/plugins`
+
+4. Run this once:
+
+    `docker compose up airflow-init`
+
+
+## Running
+
+`docker compose up -d --build`
+
+### Preparing for offline usage
+
+Wait until all services are ready.
+
+This step is optional. Offline backups of all datasets are moved into the landing zone (MongoDB and airflow/dags/ingestion_zone).
+
+1. `./prepare_for_offline_use.sh`
+
+## URLs
+
+| Service    | URL                    |
+| ---------- | ---------------------- |
+| Airflow Dashboard   | http://localhost:8080/ |
+| Mongo Express | http://localhost:8081/ |
+| Jupyter Notebook    | http://localhost:8889/ |
+
+## Passwords
+
+| Service    | User                    |Password                    |
+| ---------- | ---------------------- | ---------------------- |
+| Airflow Dashboard   | airflow | airflow |
+| Mongo DB | admin  | admin |
+| Mongo Express | admin  | admin |
+
+## Connection URIs
+
+| Service    | Inside Docker Network                    | Outside Docker Network                    |
+| ---------- | ---------------------- |  ---------------------- |
+| PostgreSQL   | postgresql://airflow:airflow@postgres-data-eng:5432/data_eng | postgresql://airflow:airflow@localhost:50008/data_eng
+
+
+## Running DAGs
+
+All DAGs are paused after installation.
+
+Running the `ingest_*` DAGs will populate the landing zone (MongoDB + CSVs in `airflow/dags/ingestion_zone`). The `wrangle_*` DAGs will merge, clean, transform and then move all relevant data into PostgreSQL.
+
+The `prod_make_star_schema` transforms the data in the staging tables into a fitting star schema.
+
+## Evaluation with Jupyter Notebook
+
+Data analysis is done in Jupyter Notebook. The prepared `queries.ipynb` notebook executes the relevant SQL queries against the star schema to answer our questions. 
+
+The date ranges for all generated plots can be interactively changed.
