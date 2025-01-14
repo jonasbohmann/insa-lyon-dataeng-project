@@ -13,7 +13,7 @@ Of course, not everybody interested in GTA V is playing it. So in order to make 
 ### 3) Does news coverage on crime incidents lead to more people wanting to play GTA V?
 Even though a high crime rate might be generally sensed by the citizens, the general attention on crime incidents raises mainly due to news reports that are watched by most of the people. Considering that, we were also curious to see, if the mentioning of violent words in e.g. a report on a crime incident on national television alone could spark the desire of people to play a violent game such as GTA V.
 
-# Setup
+# Start
 ## Scope & Assumptions
 Based on the available data and the extent of this project, we had to lower the scope of our analysis and make a few assumptions, in order to be efficient, but still able to come to a meaningful conclusion. <br/>
 
