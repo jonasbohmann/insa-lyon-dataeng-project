@@ -2,7 +2,7 @@
 A project by Jonas Bohmann and Johann Adrion (Potato$alad) <br/>
 Teacher: Riccardo Tommasini <br/>
 Course: Foundation of Data Engineering at INSA Lyon <br/>
-Poster: https://www.canva.com/design/DAGcFujhq5g/J2g5IH0500I_kRZoKcs9zQ/edit
+Poster: https://www.canva.com/design/DAGcLqu_re4/EipdT7Dg4SThcyEl7YXtFA/edit
 
 # Motivation
 With Grant Theft Auto 6 being right around the corner (for a few years now) we thought it would be interesting to see, if it's predecessor GTA V, a game that is all about comitting crimes and causing havoc in a very realistic simulation of our environment, could impact criminal behavior in our society. In order to get an answer as satisfying as possible to this question, we came up with three specific correlations we wanted to check.
