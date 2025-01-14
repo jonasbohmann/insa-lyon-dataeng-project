@@ -24,8 +24,6 @@ Due to a lack of information on the worldwide player spread, we also made the fo
 
 We also took the number of current GTA V Twitch viewers as a representative indicator for the general interest in the game, for which the same assumptions are applied as for the player numbers.
 
-
-
 ## Data sources
 GTA V player & Twitch viewer count: <br/>
 https://steamdb.info/app/271590/charts/ <br/>
