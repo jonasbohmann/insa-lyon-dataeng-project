@@ -559,5 +559,8 @@ ui-tests/.pnp.*
 # generated html
 notebook/templates/*.html
 
-notebooks/.local
-notebooks/.jupyter
+notebooks/.local/*
+notebooks/.jupyter/*
+
+notebooks/.local/
+notebooks/.jupyter/
