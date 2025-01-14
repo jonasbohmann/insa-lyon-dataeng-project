@@ -38,20 +38,22 @@ https://catalog.data.gov/dataset/crime-data-from-2020-to-present <br/>
 CNN news transcripts: <br/>
 https://transcripts.cnn.com 
 
-## Workflow
-rough structure of the project steps (to be elaborated later)
 # Project Steps
 maybe insert picture
 ## Ingestion Phase
-- download steps for every dataset
-- 
+We started off by downloading all required data from the respective websites, which, for some datasets, turned out to be more difficult than expected.
+
+First we downoaded the datasets for all Los Angeles crime incidents during the years of 2010-2019 and 2020-2025 from data.gov, which was fairly easy due to the data being available to download as CSV-files on the official data.gov website.<br/>
+In order to get the GTA V update list, we located the update table on the website and used a Pandas function to parse it.
+
+
 ## Staging Phase
-- joining datasets (crime data)
-- cleaning joined data set (crime data)
-- conversion into table structure (update history)
-- 
+
+
 ## Production Phase
 - 
 - building the star schema
 
 # Verdict
+Looking at our results for the 3 questions from the beginning, honestly, you cannot specifically say that there is a real correlation between the variables we examined. However, there are passages within the visualizations (to be found on the poster) which might indicate a connection between a lot of people playing GTA V and real-time incidents happening in the city of Los Angeles that are covered by national television in certain periods. <br/>
+At this point, one could investigate further by using data from more similar games while looking at a bigger region and also including console players to gain convincing results, that show the real impact of violent video games on real-time events in our society.
