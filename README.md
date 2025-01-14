@@ -1,20 +1,30 @@
 # Data Engineering Project: How does GTA V affect crime in the real world?
+
 A project by Jonas Bohmann and Johann Adrion (Potato$alad) <br/>
 Teacher: Riccardo Tommasini <br/>
 Course: Foundation of Data Engineering at INSA Lyon <br/>
 Poster: https://www.canva.com/design/DAGcLqu_re4/EipdT7Dg4SThcyEl7YXtFA/edit
 
 # Motivation
+
 With Grant Theft Auto 6 being right around the corner (for a few years now) we thought it would be interesting to see, if it's predecessor GTA V, a game that is all about comitting crimes and causing havoc in a very realistic simulation of our environment, could impact criminal behavior in our society. In order to get an answer as satisfying as possible to this question, we came up with three specific correlations we wanted to check.
-### 1) Does the release of a new GTA V update come with a spike in crime rate?
+
+### 1. Does the release of a new GTA V update come with a spike in crime rate?
+
 If you look at the player number trend of the biggest games out there, you'll see, that new updates which bring new features can temporarily increase the current player count by a lot. We'll use this to our advantage by taking those events that lead to increased playing rates and check if there are sparks in crime rate on the release dates (and the following days).
-### 2) Is the general interest in GTA V higher, if the crime rate is up?
+
+### 2. Is the general interest in GTA V higher, if the crime rate is up?
+
 Of course, not everybody interested in GTA V is playing it. So in order to make our analysis as consistent as possible, we decided, to also look at our initial question from a different perspective. To do that, we chose to take dates with a significant high crime rate and check the online interest in GTA V, using viewer numbers from the biggest streaming platform for video games: Twitch.
-### 3) Does news coverage on crime incidents lead to more people wanting to play GTA V?
+
+### 3. Does news coverage on crime incidents lead to more people wanting to play GTA V?
+
 Even though a high crime rate might be generally sensed by the citizens, the general attention on crime incidents raises mainly due to news reports that are watched by most of the people. Considering that, we were also curious to see, if the mentioning of violent words in e.g. a report on a crime incident on national television alone could spark the desire of people to play a violent game such as GTA V.
 
 # Start
+
 ## Scope & Assumptions
+
 Based on the available data and the extent of this project, we had to lower the scope of our analysis and make a few assumptions, in order to be efficient, but still able to come to a meaningful conclusion. <br/>
 
 First of all, we decided to only look at the crime data in the city of Los Angeles, which in fact, is the city that the GTA V map is based on. Since we only found exact player number data on Steam, which is a platform for PC-games, we did not conclude console players in our research. <br/>
@@ -40,6 +50,7 @@ https://transcripts.cnn.com
 
 # Project Steps
 maybe insert picture
+
 ## Ingestion Phase
 We started off by downloading all required data from the respective websites, which, for some datasets, turned out to be more difficult than expected.
 

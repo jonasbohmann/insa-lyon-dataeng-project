@@ -336,8 +336,6 @@ services:
       - "50008:5432"
 
   jupyter:
-    #build:
-    #  context: .
     image: quay.io/jupyter/base-notebook
     ports:
       - 8889:8888
